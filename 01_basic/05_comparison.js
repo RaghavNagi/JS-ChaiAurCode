@@ -13,8 +13,7 @@
 // console.log(null == 0); //false
 // console.log(null >= 0); //true
 
-/*  This behavior can seem confusing at first glance! Let’s go through each line to clarify why JavaScript evaluates them this way.
-
+/*  
 	1.	console.log(null > 0); // false
 	•	When comparing null with a number using the >, <, <=, or >= operators, JavaScript attempts to convert null to a number, which results in 0.
 	•	So, null > 0 becomes 0 > 0, which is false.
@@ -34,5 +33,23 @@ The unusual behavior happens because == does not do numeric conversion for null,
 // console.log(undefined < 0);   //false
 // console.log(undefined > 0);   //false
 
-// === strict check
-console.log("2" === 2);
+/*
+	1.	console.log(undefined == 0); // false
+	•	In JavaScript, undefined is only loosely equal to null but not to any other value, including 0.
+	•	Since undefined and 0 do not match in value or type, undefined == 0 evaluates to false.
+	2.	console.log(undefined < 0); // false
+	•	When comparing undefined to a number (like 0) with <, JavaScript attempts to convert undefined to NaN.
+	•	Comparisons with NaN are always false, so undefined < 0 evaluates to false.
+	3.	console.log(undefined > 0); // false
+	•	Similar to the previous example, undefined converts to NaN, and comparisons with NaN are always false.
+	•	Thus, undefined > 0 also evaluates to false.
+
+Summary
+
+Any comparison (<, >, <=, or >=) involving undefined will yield false because undefined converts to NaN, and comparisons with NaN are always false. However, undefined == 0 is also false because undefined is not loosely equal to any number. */
+
+
+
+// === "strict check"
+//console.log("2" === 2);  //false //data type is different
+
