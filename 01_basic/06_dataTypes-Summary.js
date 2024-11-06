@@ -45,10 +45,13 @@ let myObj = {
     name : "Raghav",
     age : 21
 }
-console.log(typeof myObj);
+// console.log(typeof myObj);  //object
 
 
 const myFunction = function(){
     console.log("Hello World");
 }
 // console.log(typeof myFunction);  //function
+
+
+// https://262.ecma-international.org/5.1/#sec-11.4.3
