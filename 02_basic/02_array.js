@@ -40,18 +40,18 @@ without any modifications.   */
 // console.log(usable_another_array);
 
 
-// console.log(Array.isArray("Raghav"));  //flase because not a array
+// console.log(Array.isArray("Raghav"));  //false because not a array
 // console.log(Array.from("Raghav"));  // converts string into array
 // [ 'R', 'a', 'g', 'h', 'a', 'v' ]
 
 // console.log(Array.from({name: "Raghav"}));
-// had to specify wheter to make arrays of keys ar value in object
+// had to specify whether to make arrays of keys ar value in object
 //[]
 
 
 
-let score1 = 100;
-let score2 = 200;
-let score3= 300;
-
-console.log(Array.of(score1,score2,score3));
+// let score1 = 100;
+// let score2 = 200;
+// let score3= 300;
+// console.log(Array.of(score1,score2,score3));
+// converts given value into array
