@@ -48,9 +48,9 @@ console.log("B ",myArr);
 
 const myn2 = myArr.splice(1,3);
 // splice manipulates original array
-console.log("C ",myArr);
 console.log(myn2);
-
+console.log("C ",myArr);  // [0 , 4 , 5]
+// in splice it removes element from 1-3 in original array 
 
 
 

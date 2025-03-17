@@ -13,7 +13,8 @@ console.log(balance.toFixed(2)); //400.00
 
 const otherNumber = 123.8966;
 
-console.log(otherNumber.toPrecision(3));
+console.log(otherNumber.toPrecision(3)); 
+// toPrecision returns a string
 //if otherNumber = 23.8966 => 23.9
 //if otherNumber = 123.8966 => 124
 

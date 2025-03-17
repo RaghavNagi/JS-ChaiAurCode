@@ -16,7 +16,7 @@ let str1 = "hello";
 let str2 = " world";
 
 let str3 = str1 + str2;
-// console.log(str3);  //helloworld
+// console.log(str3);  //hello world
 
 // console.log("1" + 2);  //12
 // console.log(1 + "2");  //12

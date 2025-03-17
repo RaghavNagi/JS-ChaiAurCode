@@ -1,4 +1,4 @@
-"use strict"; //treat all js code as newer version
+ "use strict"; //treat all js code as newer version
 
 // alert(3+3) //we are using node js not browser
 //alert function can be used in browser
@@ -47,6 +47,12 @@ let age = 21;
 let isLoggedIn = false;
 let state;
 
+
+// Range of Data Types
+
+
+// Primitive Data Types
+
 // number => 2 to power 53
 // bigint
 // string => ""
@@ -55,12 +61,14 @@ let state;
 // undefined => value is not assigned
 // symbol => unique
 
+//Non-Primitive Data Types
 
 // object
+
 
 console.log(typeof 14);
 
 console.log(typeof name);
 console.log(typeof isLoggedIn);
-console.log(typeof null);
-console.log(typeof undefined);
+console.log(typeof null);    //object
+console.log(typeof undefined);   //undefined

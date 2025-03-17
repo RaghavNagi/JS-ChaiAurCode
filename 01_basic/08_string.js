@@ -26,7 +26,7 @@ console.log(anotherString);
 const newStringOne = "   abcde      ";
 console.log(newStringOne.trim()); //remove starting and end space
 
-const url = "https://raghav.com/raghav%20choudhary";
+const url = "https://raghav.com/raghav%20nagi";
 console.log(url.replace('%20' , '-'));
 
 console.log(url.includes('raghav'));

@@ -2,7 +2,7 @@ const marvel_heros = ["thor" , "Ironman" ,"spideman"];
 const dc_heros = ["superman","flash","batman"];
 
 // marvel_heros.push(dc_heros);  //  [ 'thor', 'Ironman', 'spideman', [ 'superman', 'flash', 'batman' ] ]
-//  Add array(dc_heros) as a single element in marvel_heros
+//  Add array "dc_heros" as a single element in marvel_heros
 
 // console.log(marvel_heros );
 
