@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+h1, h2 {
+    font-family: Arial, sans-serif;
+}
+
+.button {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    cursor: pointer;
+    border: 1px solid #000;
+}
+
+#grey { background-color: grey; }
+#white { background-color: white; border: 2px solid black; }
+#blue { background-color: blue; }
+#yellow { background-color: yellow; }

@@ -1,0 +1,10 @@
+*{
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    display: grid;
+    place-items: center;
+    margin: 0;
+    background-color: rgba(128, 128, 128, 0.629);
+}
